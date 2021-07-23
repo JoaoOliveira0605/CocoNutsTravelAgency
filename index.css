@@ -5,7 +5,7 @@
 }
 
 .header_content {
-    height: 90vh;
+    height: 100vh;
     background:no-repeat center/cover url(/assets/cassiano-psomas-yfZYl8_7Cts-unsplash.jpg)
 }
 
@@ -72,7 +72,7 @@
 
 .services {
     background: no-repeat center/100% url(assets/francois-van-ACzGBDIJbdY-unsplash.jpg);
-    height: 380px;
+    height: 450px;
 }
 
 .about_services {
@@ -141,7 +141,7 @@
 /* Destino */
 
 .destiny_sect {
-    height: 900px;
+    height: 96  0px;
     background: #242331;
     display: grid;
     grid-column-gap: 10px;
@@ -160,14 +160,65 @@
     color:white
 }
 
-.destiny_card {
-    background:yellow;
+.destiny_card1 {
+    background:#fafafaa2;
     width: 350px;
-    height: 350px;
+    height: 390px;
+    border-radius: 15px 9px 30px 30px;
+    margin:50px auto;
+}
+
+.destiny_name {
+    color:rgba(0, 0, 0, 0.733);
+    display:flex;
+    justify-content: center;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.card_image {
+    width: 350px;
+    height: 250px;
+    border-radius: 15px 9px 30px 0px;
+    object-fit:cover;
+   
+}
+
+.destiny_card2 {
+    background:#fafafaa2;
+    width: 350px;
+    height: 390px;
     border-radius: 15px 9px 30px 30px;
     margin:50px auto
 }
-
+.destiny_card3 {
+    background:#fafafaa2;
+    width: 350px;
+    height: 390px;
+    border-radius: 15px 9px 30px 30px;
+    margin:50px auto
+}
+.destiny_card4 {
+    background:#fafafaa2;
+    width: 350px;
+    height: 390px;
+    border-radius: 15px 9px 30px 30px;
+    margin:50px auto
+}
+.destiny_card5 {
+    background:#fafafaa2;
+    width: 350px;
+    height: 390px;
+    border-radius: 15px 9px 30px 30px;
+    margin:50px auto
+}
+.destiny_card6 {
+    background:#fafafaa2;
+    width: 350px;
+    height: 390px;
+    border-radius: 15px 9px 30px 30px;
+    margin:50px auto
+}
 
 /* Media query */
 
