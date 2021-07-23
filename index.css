@@ -1,0 +1,378 @@
+* , html  {
+    margin:0;
+    font-family: 'Lexend', sans-serif;
+    box-sizing: border-box;
+}
+
+.header_content {
+    height: 90vh;
+    background:no-repeat center/cover url(/assets/cassiano-psomas-yfZYl8_7Cts-unsplash.jpg)
+}
+
+.header_logo {
+    height: 90px;
+    z-index: 2;
+    width: 90px;
+}
+
+.header_link {
+    display:flex;
+    justify-content: space-between;
+}
+
+.links {
+    display:flex;
+    margin: 0px 30px;
+    font-size:25px;
+    color:#FFEEF2;
+}
+
+.header_links {
+    margin:0px 25px;
+}
+
+.header_title{
+    margin:0px auto;
+    max-width: 900px;
+}
+
+.title {
+    margin-top:20vh;
+    font-size:10vh;
+    color:#FFEEF2;
+    display:flex;
+    justify-content:center;
+}
+
+.sub {
+    color:#FFEEF2;
+    font-size:2.5vh;
+    margin-top:3vh;
+    display:flex;
+    justify-content:center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.title_button {
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size:19px;
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    text-decoration: none;
+    background-color:#D33F49;
+    border-style: none;
+    color:#FFEEF2;
+}
+
+
+/* serviços */
+
+.services {
+    background: no-repeat center/100% url(assets/francois-van-ACzGBDIJbdY-unsplash.jpg);
+    height: 380px;
+}
+
+.about_services {
+    font-size: 35px;
+    color:#FFEEF2;
+    justify-content: center;
+    display:flex;
+    padding:50px 0px;
+}
+
+.services_card {
+    display:flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 110px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.733) ;
+    border-radius: 0px 18px;
+}
+
+.card svg {
+    color:white;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin:9px auto;
+    
+}
+
+.tour {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+}
+
+.linkedin {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;
+}
+
+.github {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;       
+}
+
+.number {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;       
+}
+
+/* Destino */
+
+.destiny_sect {
+    height: 900px;
+    background: #242331;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    
+
+}
+
+.popular_destiny {
+    font-size:35px;
+    display:flex;
+    justify-content:center;
+    padding-top:50px;
+    background: #242331;
+    color:white
+}
+
+.destiny_card {
+    background:yellow;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px 9px 30px 30px;
+    margin:50px auto
+}
+
+
+/* Media query */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .header_content {
+        height: 90vh;
+        background:no-repeat center/cover url(/assets/cassiano-psomas-yfZYl8_7Cts-unsplash.jpg)
+    }
+    
+    .header_logo {
+        width: 0;
+        display:flex;
+        justify-content: center;
+        color:#FFEEF2;
+    }
+    
+
+    .links {
+        position: absolute;
+        bottom:1;
+        left:0;
+        color:#FFEEF2;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #111118c9;
+        width: 100%;
+        margin:0;
+        padding:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;        
+    }
+
+    .header_links {
+        margin:0 10px
+    }
+
+    .title {
+        margin-top:15vh;
+        font-size:12vh;
+        color:#FFEEF2;
+        display:flex;
+        justify-content:center;
+    }
+    
+    .sub {
+        color:#FFEEF2;
+        font-size:2.3vh;
+        margin-top:3vh;
+        display:flex;
+        justify-content:center;
+        margin-bottom: 25px;
+        font-weight:bold;
+        margin:10px 15px;
+        margin-bottom: 35px;
+    }
+    
+    .title_button {
+        padding: 10px 10px;
+        border-radius: 8px;
+        font-size:19px;
+        display:flex;
+        justify-content:center;
+        margin:0 auto;
+        text-decoration: none;
+        background-color:#D33F49;
+        border-style: none;
+        color:#FFEEF2;
+    }
+    .header_title{
+        max-width: 400px;
+    }
+    
+
+    /* serviços */
+
+.services {
+    background: no-repeat center/cover url(assets/francois-van-ACzGBDIJbdY-unsplash.jpg);
+    height: 280px;
+}
+
+.about_services {
+    font-size: 29px;
+    color:#FFEEF2;
+    justify-content: center;
+    padding:30px 0px;
+}
+
+.services_card {
+    display:flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 50px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.733) ;
+    border-radius: 18px 2px;
+    font-size:12px;
+}
+
+.card svg {
+    color:white;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin:9px auto;
+    
+}
+
+.tour {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    margin-left:7px;
+}
+
+.linkedin {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;
+}
+
+.github {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;       
+}
+
+.number {
+    color: #FFEEF2;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;       
+}
+
+
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
