@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoconutsAgency   </title>
+    <title>CoconutsAgency</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,22 +18,22 @@
             <img  class="header_logo" src="./assets/png-clipart-coconut-cartoon-illustration-coconut-food-photography.png">
             <nav class="links">
                 <a class="header_links">Inicio</a>
-                <a class="header_links">Serviços</a>
-                <a class="header_links">Pacotes</a>
-                <a class="header_links">Contato </a>
+                <a href="#services" class="header_links">Serviços</a>
+                <a href="#destino" class="header_links">Pacotes</a>
+                <a href="#Localização" class="header_links">Localização </a>
             </nav>
         </nav>
         <div class="header_title">
             <h2 class="title">Vernazza</h2>
             <p class="sub">Vernazza é por muitos considerada a mais bonita das Cinque Terre. Formada por casas em suaves tons pastel, implantadas em imponentes penhascos rochosos.</p>
-            <button class="title_button">Aperte aqui!</button>
+            <button class="title_button">Compre já!</button>
         </div>
     </header>
 
     <section class="services">
-       <p class="about_services">Nossos serviços:</p>
+       <p class="about_services" id="services">Nossos serviços:</p>
 
-       <div class="services_card">
+       <div class="services_card"  >
            <div class="card">
                 <p><i data-feather="navigation"></i></p>
                 <p class="tour">Tour guiado</p>
@@ -41,61 +41,80 @@
 
            <div class="card">
                 <p><i data-feather="linkedin"></i></p>
-                <a class="linkedin" href="">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/joaovitor0605/" target="_blank" class="linkedin" href="">LinkedIn</a>
            </div>
 
            <div class="card">
                 <p><i data-feather="github"></i></p>
-                <a class="github" href="">GitHub</a>   
+                <a href="https://github.com/JoaoOliveira0605" target="_blank" class="github" href="">GitHub</a>   
            </div>
            
            <div class="card">
                 <p><i data-feather="smartphone"></i></p>
-                <a class="number" href="">Contato</a>
+                <a href="https://api.whatsapp.com/send?phone=5561996652645" target="_blank" class="number" href="">Contato</a>
            </div>
        </div>
     </section>
     
-    <p class="popular_destiny">Destinos populares</p>
+    <p class="popular_destiny" id="destino" >Destinos populares</p>
 
     <section class="destiny_sect">
         
         <div class="destiny_card1">
             <img class="card_image" src="./assets/SaoPaulo.jpg">
             <p class="destiny_name">São Paulo</p>
-            <button>Compre já</button>
+            <div class="card_button">
+            <button class="buy_button">Compre já</button>
+            </div>
         </div>
 
         <div class="destiny_card2">
             <img class="card_image" src="./assets/Canada.jpg">
             <p class="destiny_name">Canadá</p>
-            <button>Compre já</button>
+            <div class="card_button">
+            <button class="buy_button">Compre já</button>
+            </div>
         </div>
 
         <div class="destiny_card3">
             <img class="card_image" src="./assets/Cancun.jpg">
             <p class="destiny_name">Cancún</p>
-            <button>Compre já</button>
+            <div class="card_button">
+            <button class="buy_button">Compre já</button>
+            </div>
         </div>
 
         <div class="destiny_card4">
             <img class="card_image" src="./assets/Japao.jpg">
-            <p class="destiny_name">japão</p>
-            <button>Compre já</button>
+            <p class="destiny_name">Japão</p>
+            <div class="card_button">
+            <button class="buy_button">Compre já</button>
+            </div>
         </div>
 
         <div class="destiny_card5">
             <img class="card_image" src="./assets/RioDeJaneiro.jpg">
             <p class="destiny_name">Rio De Janeiro</p>
-            <button>Compre já</button>
+            <div class="card_button">
+            <button class="buy_button">Compre já</button>
+            </div>
         </div>
 
         <div class="destiny_card6">
             <img class="card_image" src="./assets/california.jpg">
             <p class="destiny_name">Califórnia</p>
-            <button>Compre já</button>
+            <div class="card_button">
+            <button class="buy_button">Compre já</button>
+            </div>
         </div>
+    </section>
 
+    <section class="contact_sect">
+        
+        <div class="contact_us">
+            <h2 id="Localização">Localização do aeroporto mais próximo!</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.7499970201543!2d-47.91942348454558!3d-15.869731729041629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2582bb6d2b43%3A0xbeebe30930ee8750!2sAeroporto%20Internacional%20de%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1627147096566!5m2!1spt-BR!2sbr" width="1900" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </section>
 
 
